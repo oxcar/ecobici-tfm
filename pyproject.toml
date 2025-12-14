@@ -1,0 +1,24 @@
+[project]
+name = "ecobici-analytics"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "contextily>=1.7.0",
+    "duckdb>=1.4.3",
+    "geopandas>=1.1.1",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "optuna>=4.6.0",
+    "pandas>=2.3.3",
+    "polars>=1.36.1",
+    "pyarrow>=22.0.0",
+    "pyproj>=3.7.2",
+    "pyprojroot>=0.3.0",
+    "seaborn>=0.13.2",
+    "shap>=0.49.1",
+    "shapely>=2.1.2",
+    "statsmodels>=0.14.5",
+    "torch>=2.9.1",
+    "torch-geometric>=2.7.0",
+    "xgboost>=3.1.2",
+]

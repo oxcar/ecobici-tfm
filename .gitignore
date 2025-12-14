@@ -1,0 +1,21 @@
+.env
+.DS_Store
+node_modules/
+__pycache__/
+.venv/
+*.pyc
+log/*.log
+log/*.err
+!log/.keep
+data/
+
+src/scraper/
+*.code-workspace
+login-github.sh
+.ipynb_checkpoints
+
+# Archivos de modelos grandes (>100MB)
+src/modeler/output/**/*.pkl
+src/modeler/output/**/*.pth
+src/modeler/output/**/*.h5
+src/modeler/output/**/*.joblib
