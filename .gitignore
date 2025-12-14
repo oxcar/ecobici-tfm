@@ -7,7 +7,11 @@ __pycache__/
 log/*.log
 log/*.err
 !log/.keep
-data/
+
+data/*
+!data/
+!data/all_data.txt
+
 
 src/scraper/
 *.code-workspace
